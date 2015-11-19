@@ -20,6 +20,8 @@ app.on('window-all-closed', function() {
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 app.on('ready', function() {
+  var pythonServer = require('child_process').spawn('python', ['-m', 'SimpleHTTPServer', '3000']);
+
   // Create the browser window.
   mainWindow = new BrowserWindow({width: 800, height: 600, 'web-preferences': {'web-security': false}});
   // and load the index.html of the app.
@@ -34,5 +36,6 @@ app.on('ready', function() {
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
     mainWindow = null;
+    pythonServer.kill('SIGINT');
   });
 });
