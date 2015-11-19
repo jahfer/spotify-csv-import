@@ -15,7 +15,10 @@ $ cd spotify-csv-import
 $ npm install && npm start
 ```
 
-Once the app is running, you’ll be prompted to select a CSV file. The app assumes the first column of the CSV is the track name, and the second column is the artist.
+Once the app is running, you’ll be prompted to select a CSV file. The app assumes the following:
+- CSV starts with a header row that is ignored
+- First column of the CSV is the track name
+- Second column is the artist.
 
 Output is available via the `Console` tab in the Dev Tools.
 
