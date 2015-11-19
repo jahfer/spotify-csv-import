@@ -1,0 +1,39 @@
+{
+  "name": "rdio2spotify",
+  "version": "1.0.0",
+  "description": "Rdio -> Spotify",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "Jahfer",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "lodash": "^3.10.1",
+    "q": "^1.4.1",
+    "react": "^0.13.3",
+    "reflux": "^0.2.12",
+    "spotify-web-api-js": "^0.15.0"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.0",
+    "babel-runtime": "^5.8.20",
+    "babelify": "^6.1.3",
+    "browser-sync": "^2.8.2",
+    "browserify": "^11.0.1",
+    "envify": "^3.4.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-flowtype": "^0.4.7",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^1.4.1",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4",
+    "lodash.assign": "^3.2.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.1"
+  }
+}

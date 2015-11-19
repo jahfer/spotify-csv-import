@@ -1,0 +1,36 @@
+env:
+    browser: true
+
+rules:
+    brace-style: [2, "1tbs"]
+    comma-style: [2, "last"]
+    camelcase: 0
+    curly: 2
+    default-case: 2
+    eqeqeq: 2
+    guard-for-in: 2
+    indent: [2, 2]
+    new-cap: 0
+    no-console: 0
+    no-debugger: 2
+    no-empty: 2
+    no-floating-decimal: 2
+    no-nested-ternary: 2
+    no-undefined: 2
+    no-underscore-dangle: 0
+    no-unreachable: 2
+    radix: 2
+    quotes: [2, "single"]
+    space-before-function-paren: [2, "never"]
+    space-after-keywords: [2, "always"]
+    space-before-blocks: 2
+    spaced-comment: [2, "always", { exceptions: ["-"]}]
+    valid-jsdoc: [2]
+    wrap-iife: [2, "any"]
+
+ecmaFeatures:
+    blockBindings: true
+    arrowFunctions: true
+    classes: true
+    templateStrings: true
+    modules: true
