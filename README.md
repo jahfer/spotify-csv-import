@@ -17,4 +17,6 @@ $ npm install && npm start
 
 Once the app is running, you’ll be prompted to select a CSV file. The app assumes the first column of the CSV is the track name, and the second column is the artist.
 
+Output is available via the `Console` tab in the Dev Tools.
+
 #### License [MIT](LICENSE.md)
