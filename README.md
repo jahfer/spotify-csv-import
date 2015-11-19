@@ -13,6 +13,8 @@ $ git clone git@github.com:jahfer/spotify-csv-import.git
 $ cd spotify-csv-import
 # Install dependencies and run the app
 $ npm install && npm start
+# If you plan on making changes, open a new terminal and run gulp to compile code
+$ gulp
 ```
 
 Once the app is running, you’ll be prompted to select a CSV file. The app assumes the following:
